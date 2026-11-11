@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rank Confidence · Vals Index Leaderboard | Vals AI (concept)</title>
+  <meta name="description" content="Rank Confidence: simultaneous rank intervals, statistical ties and moderated standard errors for Vals AI leaderboards, computed from the public leaderboard data. Unofficial concept demo." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>window.__errs=[];addEventListener("error",function(e){__errs.push(String(e.message))});addEventListener("unhandledrejection",function(e){__errs.push(String(e.reason))});</script>
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js" defer></script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="topnav">
+    <a class="logo" href="#" aria-label="Vals home"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#284d32" stroke-width="1.8"><path d="M4 21 C6 10, 9 5, 12 3 C15 5, 18 10, 20 21"/><path d="M8 21 C9 13, 10.5 9, 12 7 C13.5 9, 15 13, 16 21"/><path d="M12 7 V21"/></svg><span>VALS</span></a>
+    <nav aria-label="Main">
+      <a class="on" href="#"><i class="dot"></i>Benchmarks</a><a href="#">Models</a><a href="#">Comparison</a><a href="#">Vals Smith <i data-lucide="arrow-up-right"></i></a><a href="#">App Reports</a><a href="#">Government</a><a href="#">News</a><a href="#">Blog</a><a href="#">Hackathon</a><a href="#">About</a>
+    </nav>
+  </header>
+  <div class="frame">
+    <div class="selbar" id="selbar"></div>
+    <main id="view" aria-live="polite">
+      <div class="hero"><div class="skel" style="width:180px;height:14px"></div><div class="skel" style="width:360px;height:44px;margin-top:22px"></div><div class="skel" style="width:640px;height:60px;margin-top:22px"></div></div>
+      <div class="skel" style="height:420px;margin:0"></div>
+    </main>
+    <footer class="foot">Unofficial concept demo by Mohith Gajjela. Not affiliated with Vals AI. Public data from vals.ai leaderboards, fetched Nov 11, 2026. <a href="https://github.com/Mohith26/vals-ai-rank-confidence" target="_blank" rel="noopener">Source and method</a></footer>
+  </div>
+  <div id="overlay"></div>
+</body>
+</html>
