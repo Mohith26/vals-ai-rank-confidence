@@ -78,7 +78,8 @@ h1 { font-family: var(--serif); font-weight: 500; font-size: 44px; letter-spacin
 
 /* leaderboard table */
 .searchrow { display: flex; align-items: center; gap: 20px; height: 40px; padding: 0 15px; border-bottom: 1px solid #dfe2df; font-family: var(--mono); font-size: 11.5px; letter-spacing: .05em; text-transform: uppercase; }
-.searchrow .q { display: flex; align-items: center; gap: 6px; border: 1px solid #e3e5e3; padding: 4px 8px; width: 210px; text-transform: none; letter-spacing: 0; }
+.searchrow .qbox { width: 32px; height: 28px; display: grid; place-items: center; background: #f1f3f1; border: 1px solid #e3e5e3; cursor: pointer; margin-right: -14px; }
+.searchrow .q { display: flex; align-items: center; gap: 6px; border: 1px solid #e3e5e3; border-left: 0; height: 28px; padding: 0 8px; width: 200px; text-transform: none; letter-spacing: 0; }
 .searchrow .q input { border: 0; outline: 0; font-family: var(--sans); font-size: 12.5px; width: 100%; }
 .searchrow .k { color: var(--accent-700); }
 table.lb { width: 100%; border-collapse: collapse; font-size: 14px; }
